@@ -1,0 +1,21 @@
+{
+    "name": "beyza-kilickol/portfolio",
+    "description": "Adding contact",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^2.0@dev",
+        "php": "^7.1",
+        "alrik11es/cowsayphp": "^1.0@dev"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "beyzakilickol",
+            "email": "beyzakilickolakurek@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
