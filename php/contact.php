@@ -73,15 +73,15 @@ $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 mail("beyzakilickolakurek@gmail.com", $e_subject, $msg, $headers)
-if(mail("beyzakilickolakurek@gmail.com", $e_subject, $msg, $headers)) {
-
-	// Email has sent successfully, echo a success page.
-
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
-
-} else {
-
-	echo '<p class="error">Sorry, your message is not delivered successfully. Please contact us through email.</p>';
-
-}
-?>
+// if(mail("beyzakilickolakurek@gmail.com", $e_subject, $msg, $headers)) {
+//
+// 	// Email has sent successfully, echo a success page.
+//
+// 	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
+//
+// } else {
+//
+// 	echo '<p class="error">Sorry, your message is not delivered successfully. Please contact us through email.</p>';
+//
+// }
+// ?>
